@@ -1,4 +1,23 @@
-Requires:
+********************************************************************************
+Requirements:
+********************************************************************************
 
+Following python packages are needed to run ygd:
 BeautifulSoup
 twill
+
+To install them on Linux/UNIX:
+   ( needs pip-python installed )
+ $ pip-python install BeautifulSoup twill
+   OR ( for Fedora )
+ $ yum install python-BeautifulSoup python-twill
+
+
+********************************************************************************
+How to use the script?
+********************************************************************************
+
+ $ python ygd.py -u username -g group_name
+ Password: ......
+
+Thats it!
